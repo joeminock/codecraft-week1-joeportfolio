@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Joe Minock: My Path to Coding Proficiency</title>
+			<meta name="description" content="The Story of how Joe Minock went from from intermediate to expert developer" />
+
+			<!-- Twitter Card data --> 
+			<meta name="twitter:site" content="JoeMinock.com"> 
+			<meta name="twitter:creator" content="@joeminock">
+			<meta name="twitter:title" content="Joe Minock: My Path to Coding Proficiency"> 
+			<meta name="twitter:description" content="The Story of how Joe Minock went from from intermediate to expert developer">
+
+			<!-- Open Graph data --> 
+			<meta property="og:site_name" content="JoeMinock.com" />
+			<meta property="og:type" content="website" /> 
+			<meta property="og:title" content="Joe Minock: My Path to Coding Proficiency" />        
+			<meta property="og:description" content="The Story of how Joe Minock went from from intermediate to expert developer" /> 
+			<meta property="og:image" content="" />
+			
+			<!-- Start Bootstrap -->
+				<!-- Latest compiled and minified CSS -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+				<!-- Optional theme -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+				<!-- Latest compiled and minified JavaScript -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			<!-- End Bootstrap -->
+			
+			<!-- Start Custom CSS Import -->
+				<link rel="stylesheet" href="style.css" />
+			<!-- End Custom CSS Import -->
+			
+			<!-- Import Google Web Fonts -->
+				<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+			<!-- End Google Web Fonts -->
+			
+			<!-- Start Rails Important Meta Data -->
+				<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+				<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+				<%= csrf_meta_tags %>
+			<!-- End Rails Important Meta Data -->
+			
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+					<%= link_to "Joe Minock's Portfolio", root_path, class: "navbar-brand" %>
+        </div>
+        <div id="navbar left" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+						<li class="active"><%= link_to "Home", root_path %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+		
+			<%= yield %>
+		
+			<footer>
+        <p>&copy; 2016 Joe Minock - CodeCraft Week 1, HTML, CSS, Bootstrap</p>
+      </footer>
+		</div>
+	</body>
+</html>
