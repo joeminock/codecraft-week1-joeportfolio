@@ -20,11 +20,11 @@ section#intro {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-		background-image: url(https://assets.about.me/background/users/j/o/e/joeminock_1375718450_37.jpg);
+		background-image: url(https://images.unsplash.com/photo-1454335459109-cd8a2c230bc2?ixlib=rb-0.3.5&q=80&fm=jpg);
 		background-color: rgba(0, 0, 255, 0.5);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position: cover;
+		background-position: center;
 		height: auto;
 }
 
