@@ -4,6 +4,13 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.navbar {
+    position: relative;
+    min-height: 50px;
+		margin-bottom: 0px;
+    border-bottom: 1px solid transparent;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -16,16 +23,14 @@ section#intro {
   }
 
 .bigjoe {
-    padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
 		background-image: url(https://images.unsplash.com/photo-1459255418679-d6424da9ee33?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ddacb5b564bc180ddf24a0447243a800);
 		background-color: rgba(0, 0, 255, 0.5);
 		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: center;
-		height: auto;
+		background-position: absolute;
+		height: 100%;
 }
 
 
