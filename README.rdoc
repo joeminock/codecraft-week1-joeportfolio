@@ -1,28 +1,13 @@
-== README
+== README - Portfolio Built with Rails. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+HTML PAGE - Combination of Template and partialed pages
 
-Things you may want to cover:
+Template : app > views > layouts > application.html.erb
 
-* Ruby version
+Home Page: app > views > pages
 
-* System dependencies
+CSS 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+app > assets > stylesheets > application.css
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
