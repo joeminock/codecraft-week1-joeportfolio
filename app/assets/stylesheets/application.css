@@ -22,8 +22,8 @@ body {
     margin-left: auto;
 }
 
-section#intro {
-    background-color: rgba(26,35,126,0.3); 
+/* section#intro {
+    background-color: rgba(26,35,126,0.3); */
 		
   }
 
@@ -32,26 +32,27 @@ section#intro {
 		background-position: absolute;
 		height: 100%;
 		padding-bottom: 50px;
+		
 }
 
 .home {
-	background-image: url(https://s3.amazonaws.com/codecraftweek1joe/colorado.jpeg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/colorado.jpeg);
 }
 
 .about {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
 }
 
 .contact {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/contact.jpeg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/contact.jpeg);
 }
 
 .wood {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
 }
 
 .web {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/web.jpeg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/web.jpeg);
 }
 
 .intro-heading {
