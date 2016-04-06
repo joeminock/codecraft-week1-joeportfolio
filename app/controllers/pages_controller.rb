@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 	
 	def wood
 	end
+	
+	def test
+	end
 end
