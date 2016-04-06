@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	get '/web' => 'pages#web'
 	get '/wood' => 'pages#wood'
 	get '/test' => 'pages#test'
+	get '/video' => 'pages#video'
 	
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

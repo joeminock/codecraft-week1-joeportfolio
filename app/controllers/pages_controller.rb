@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 	
 	def test
 	end
+	
+	def video
+	end
 end
