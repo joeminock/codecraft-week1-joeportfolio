@@ -99,6 +99,14 @@ body {
     border-radius: 4px;
 }
 
+.li-heading {
+	margin-left: -25px; 
+}
+
+.no-decoration {
+	list-style: none ;
+}
+
 .footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
