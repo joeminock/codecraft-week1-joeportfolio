@@ -24,28 +24,34 @@ body {
 
 section#intro {
     background-color: rgba(26,35,126,0.3); 
+		
   }
 
-.bigjoe-home {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/Mountains.jpeg);
+.bigjoe {
 		background-repeat: no-repeat;
 		background-position: absolute;
 		height: 100%;
+		padding-bottom: 50px;
 }
 
-.bigjoe-about {
+.home {
+	background-image: url(https://s3.amazonaws.com/codecraftweek1joe/colorado.jpeg);
+}
+
+.about {
 		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
-		background-repeat: no-repeat;
-		background-position: absolute;
-    top: 0;
-		height: 100%;
 }
 
-.bigjoe-contact {
-		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/conversation.jpeg);
-		background-repeat: no-repeat;
-		background-position: absolute;
-		height: 100%;
+.contact {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/contact.jpeg);
+}
+
+.wood {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
+}
+
+.web {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/web.jpeg);
 }
 
 .intro-heading {
