@@ -11,6 +11,10 @@ body {
     border-bottom: 1px solid transparent;
 }
 
+.navbar-inverse {
+    background-color: #fff;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -22,15 +26,27 @@ section#intro {
     background-color: rgba(26,35,126,0.3); 
   }
 
-.bigjoe {
-    color: inherit;
-		background-image: url(https://images.unsplash.com/photo-1459255418679-d6424da9ee33?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ddacb5b564bc180ddf24a0447243a800);
-		background-color: rgba(0, 0, 255, 0.5);
+.bigjoe-home {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/Mountains.jpeg);
 		background-repeat: no-repeat;
 		background-position: absolute;
 		height: 100%;
 }
 
+.bigjoe-about {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/planer_image.jpeg);
+		background-repeat: no-repeat;
+		background-position: absolute;
+    top: 0;
+		height: 100%;
+}
+
+.bigjoe-contact {
+		background-image: url(https://s3.amazonaws.com/codecraftweek1joe/conversation.jpeg);
+		background-repeat: no-repeat;
+		background-position: absolute;
+		height: 100%;
+}
 
 .intro-heading {
 	text-transform: uppercase;
