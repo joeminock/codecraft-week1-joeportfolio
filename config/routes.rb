@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	get '/web' => 'pages#web'
 	get '/wood' => 'pages#wood'
 	get '/test' => 'pages#test'
+	get '/test2' => 'pages#test2'
 	get '/video' => 'pages#video'
 	
   # The priority is based upon order of creation: first created -> highest priority.
