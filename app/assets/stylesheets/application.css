@@ -173,9 +173,6 @@ body {
     background-size: cover;
 }
 
-/*=========================
-	3) slider Start
-===========================*/
 
 #main-home {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://s3.amazonaws.com/codecraftweek1joe/joe_coding.jpeg) no-repeat;
@@ -191,7 +188,8 @@ body {
 	color: #fff;
 	font-weight: 700;
 	margin: 0px;
-	font-size: 36px
+	font-size: 36px;
+	text-transform: uppercase;
 }
 
 .main-text-area {}
@@ -202,6 +200,7 @@ body {
 	color: #C7D0D5;
 	font-weight: 300;
 	line-height: 43px;
+	text-transform: uppercase;
 }
 
 .main-p {
@@ -229,8 +228,5 @@ body {
 	border: 3px solid #91B1B5;
 }
 
-/*=========================
-	  slider close
-===========================*/
 
 
